@@ -1,0 +1,14 @@
+# Good first issues
+
+- [ ] Add the Gregorian calendar plugin and verify it against the Julian one on 1582-10-04/15
+- [ ] Add Hijri (tabular) plugin with tests
+- [ ] Add Hebrew calendar plugin with tests
+- [ ] Add Chinese lunisolar calendar plugin
+- [ ] Add Mayan Long Count / Tzolkin / Haab plugin
+- [ ] Add Mars sol (MSD) plugin
+- [ ] Add Romanian historical dates (Stil vechi / Stil nou, 1919 switch) notes
+- [ ] Build the converter UI: pick two calendars, type a date, see the other
+- [ ] Add a test runner (node --test) that checks round-trips toJD/fromJD
+- [ ] Add Ethiopian and Coptic calendar plugins
+
+Create them all on GitHub with `scripts/create_issues.sh` (needs the `gh` CLI).

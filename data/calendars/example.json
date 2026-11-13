@@ -1,0 +1,25 @@
+{
+  "id": "julian",
+  "name": "Julian calendar",
+  "epoch_jd": 1721423.5,
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "leap_rule": "Every year divisible by 4",
+  "plugin": "plugins/julian.js",
+  "region": "Europe (historical)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Julian_calendar"
+  ]
+}
