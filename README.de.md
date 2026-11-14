@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://calendarium.chiuta.ro
+
 > Atlas und Umrechner der Kalender der Welt, ein Plugin pro Kalender.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

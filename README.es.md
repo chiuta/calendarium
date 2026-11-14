@@ -4,6 +4,8 @@
 
 Versión: 0.1.0 · Última actualización: 2026-11-13
 
+🌐 https://calendarium.chiuta.ro
+
 > Atlas y conversor de los calendarios del mundo, un plugin por calendario.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.

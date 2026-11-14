@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://calendarium.chiuta.ro
+
 > A világ naptárainak atlasza és átváltója, naptáranként egy bővítménnyel.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

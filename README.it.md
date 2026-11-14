@@ -4,6 +4,8 @@
 
 Versione: 0.1.0 · Ultimo aggiornamento: 2026-11-13
 
+🌐 https://calendarium.chiuta.ro
+
 > Atlante e convertitore dei calendari del mondo, un plugin per calendario.
 
 Trade-free: nessun tracciamento, nessuna pubblicità, nessun account, funziona offline.
