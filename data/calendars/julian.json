@@ -1,0 +1,26 @@
+{
+  "id": "julian",
+  "name": "Julian calendar (Old Style)",
+  "epoch_jd": 1721423.5,
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "leap_rule": "Leap if divisible by 4.",
+  "plugin": "plugins/julian.js",
+  "region": "Europe (historical), Orthodox Churches",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Julian_calendar",
+    "Meeus, J., Astronomical Algorithms, 2nd ed., Willmann-Bell, 1998, ch. 7"
+  ]
+}

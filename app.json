@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "slug": "calendarium",
+  "name": "CALENDARIUM — An atlas and converter of the world's calendars, one plugin per calendar",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "An atlas and converter of the world's calendars, one plugin per calendar",
+  "egress": [],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "WebGL"
+  ],
+  "storageKeys": [
+    "calendarium.state"
+  ],
+  "sizeBytes": 427922,
+  "sha256": "11671394df622923913735f0b8dd64f7eb3fd6d7179e86dd660d45a0a7ee0166",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×7",
+      "style-src": "sha256×3",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": false,
+    "import": false,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "selfSerializing": false
+}

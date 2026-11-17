@@ -1,25 +1,26 @@
 {
-  "id": "julian",
-  "name": "Julian calendar",
-  "epoch_jd": 1721423.5,
+  "id": "french-republican",
+  "name": "French Republican calendar",
+  "epoch_jd": 2375839.5,
   "months": [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+    "Vendémiaire",
+    "Brumaire",
+    "Frimaire",
+    "Nivôse",
+    "Pluviôse",
+    "Ventôse",
+    "Germinal",
+    "Floréal",
+    "Prairial",
+    "Messidor",
+    "Thermidor",
+    "Fructidor",
+    "Sansculottides"
   ],
-  "leap_rule": "Every year divisible by 4",
-  "plugin": "plugins/julian.js",
-  "region": "Europe (historical)",
+  "leap_rule": "Twelve months of 30 days plus 5 or 6 complementary days; years III, VII and XI were leap by decree, the continuation rule is disputed",
+  "plugin": "plugins/french-republican.js",
+  "region": "France (1793-1805)",
   "sources": [
-    "https://en.wikipedia.org/wiki/Julian_calendar"
+    "https://en.wikipedia.org/wiki/French_Republican_calendar"
   ]
 }

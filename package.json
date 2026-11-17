@@ -1,0 +1,16 @@
+{
+  "name": "calendarium",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Atlas and converter of the world's calendars, one plugin per calendar.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && python3 scripts/validate.py"
+  }
+}

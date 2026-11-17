@@ -1,10 +1,7 @@
-Add the Gregorian calendar plugin and verify it against the Julian one on 1582-10-04/15
-Add Hijri (tabular) plugin with tests
-Add Hebrew calendar plugin with tests
-Add Chinese lunisolar calendar plugin
-Add Mayan Long Count / Tzolkin / Haab plugin
-Add Mars sol (MSD) plugin
-Add Romanian historical dates (Stil vechi / Stil nou, 1919 switch) notes
-Build the converter UI: pick two calendars, type a date, see the other
-Add a test runner (node --test) that checks round-trips toJD/fromJD
-Add Ethiopian and Coptic calendar plugins
+Add the French Republican calendar plugin (start from `data/calendars/example.json`; test 1 Vendémiaire An I = 1792-09-22 and 18 Brumaire An VIII = 1799-11-09)
+Add a Byzantine (Anno Mundi, year starting on 1 September) plugin for older Romanian documents
+Add the Indian national (Saka) calendar plugin with tests
+Add an Umm al-Qura Hijri variant from a cited, redistributable table of month starts
+Check the 1924 date of the Romanian Orthodox Church’s calendar change in a primary source and mark it verified
+Check the Chinese New Year and leap-month data before 1984 against an official table (for example the Hong Kong Observatory) and add tests
+Add arrow-key navigation to the month view

@@ -1,0 +1,27 @@
+{
+  "id": "coptic",
+  "name": "Coptic calendar",
+  "epoch_jd": 1825029.5,
+  "months": [
+    "Thout",
+    "Paopi",
+    "Hathor",
+    "Koiak",
+    "Tobi",
+    "Meshir",
+    "Paremhat",
+    "Paremoude",
+    "Pashons",
+    "Paoni",
+    "Epip",
+    "Mesori",
+    "Pi Kogi Enavot"
+  ],
+  "leap_rule": "Leap if the year modulo 4 is 3 (a sixth epagomenal day).",
+  "plugin": "plugins/coptic.js",
+  "region": "Egypt, Coptic Church",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coptic_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018"
+  ]
+}

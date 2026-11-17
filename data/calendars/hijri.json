@@ -1,0 +1,26 @@
+{
+  "id": "hijri",
+  "name": "Hijri calendar (tabular)",
+  "epoch_jd": 1948439.5,
+  "months": [
+    "Muharram",
+    "Safar",
+    "Rabi' al-awwal",
+    "Rabi' al-thani",
+    "Jumada al-awwal",
+    "Jumada al-thani",
+    "Rajab",
+    "Sha'ban",
+    "Ramadan",
+    "Shawwal",
+    "Dhu al-Qi'dah",
+    "Dhu al-Hijjah"
+  ],
+  "leap_rule": "30-year cycle with 11 leap years (2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29); months alternate 30 and 29 days.",
+  "plugin": "plugins/hijri.js",
+  "region": "Islamic world (religious)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tabular_Islamic_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018"
+  ]
+}

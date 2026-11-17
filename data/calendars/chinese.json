@@ -1,0 +1,27 @@
+{
+  "id": "chinese",
+  "name": "Chinese calendar",
+  "epoch_jd": 758325.5,
+  "months": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
+  "leap_rule": "Astronomical new moon (Beijing); month 11 contains the winter solstice; in a 13-month year the first month without a major solar term is the leap month.",
+  "plugin": "plugins/chinese.js",
+  "region": "East Asia (traditional)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chinese_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018, ch. 19",
+    "Meeus, J., Astronomical Algorithms, 2nd ed., Willmann-Bell, 1998, ch. 49 (new moon)"
+  ]
+}

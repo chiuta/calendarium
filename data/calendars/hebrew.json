@@ -1,0 +1,27 @@
+{
+  "id": "hebrew",
+  "name": "Hebrew calendar",
+  "epoch_jd": 347997.5,
+  "months": [
+    "Nisan",
+    "Iyar",
+    "Sivan",
+    "Tammuz",
+    "Av",
+    "Elul",
+    "Tishrei",
+    "Cheshvan",
+    "Kislev",
+    "Tevet",
+    "Shevat",
+    "Adar",
+    "Adar II"
+  ],
+  "leap_rule": "19-year cycle with 7 leap years (a second Adar); year length set by the dehiyyot postponement rules.",
+  "plugin": "plugins/hebrew.js",
+  "region": "Judaism, Israel (religious)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hebrew_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018"
+  ]
+}

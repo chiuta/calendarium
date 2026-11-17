@@ -1,0 +1,26 @@
+{
+  "id": "persian",
+  "name": "Persian calendar (Solar Hijri)",
+  "epoch_jd": 1948320.5,
+  "months": [
+    "Farvardin",
+    "Ordibehesht",
+    "Khordad",
+    "Tir",
+    "Mordad",
+    "Shahrivar",
+    "Mehr",
+    "Aban",
+    "Azar",
+    "Dey",
+    "Bahman",
+    "Esfand"
+  ],
+  "leap_rule": "The year starts on the day of the March equinox if it falls before noon in Tehran, otherwise the next day; the last month has 29 or 30 days.",
+  "plugin": "plugins/persian.js",
+  "region": "Iran, Afghanistan",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Solar_Hijri_calendar",
+    "Meeus, J., Astronomical Algorithms, 2nd ed., Willmann-Bell, 1998, ch. 27 (equinox)"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mars",
+  "name": "Mars Sol Date",
+  "epoch_jd": 2405522.0028779,
+  "months": [
+    "(no months: sols are counted continuously)"
+  ],
+  "leap_rule": "One sol = 1.0274912517 Earth days; continuous count, no months.",
+  "plugin": "plugins/mars.js",
+  "region": "Mars (missions, research)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Timekeeping_on_Mars",
+    "Allison, M. and McEwen, M., Planetary and Space Science 48 (2000), https://doi.org/10.1016/S0032-0633(99)00092-6"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "revised-julian",
+  "name": "Revised Julian calendar (Milanković)",
+  "epoch_jd": 1721425.5,
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "leap_rule": "Like Julian, but centuries are leap only if the remainder modulo 900 is 200 or 600.",
+  "plugin": "plugins/revised-julian.js",
+  "region": "Orthodox Churches (fixed feasts)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Revised_Julian_calendar"
+  ]
+}

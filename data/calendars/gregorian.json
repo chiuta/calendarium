@@ -1,0 +1,26 @@
+{
+  "id": "gregorian",
+  "name": "Gregorian calendar",
+  "epoch_jd": 1721425.5,
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "leap_rule": "Leap if divisible by 4, except centuries, unless divisible by 400.",
+  "plugin": "plugins/gregorian.js",
+  "region": "worldwide (civil)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gregorian_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018"
+  ]
+}

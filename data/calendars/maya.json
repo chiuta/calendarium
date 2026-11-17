@@ -1,0 +1,33 @@
+{
+  "id": "maya",
+  "name": "Maya calendar",
+  "epoch_jd": 584282.5,
+  "months": [
+    "Pop",
+    "Wo'",
+    "Sip",
+    "Sotz'",
+    "Sek",
+    "Xul",
+    "Yaxk'in",
+    "Mol",
+    "Ch'en",
+    "Yax",
+    "Sak'",
+    "Keh",
+    "Mak",
+    "K'ank'in",
+    "Muwan",
+    "Pax",
+    "K'ayab",
+    "Kumk'u",
+    "Wayeb'"
+  ],
+  "leap_rule": "Day count: 1 baktun = 144,000 days; 260-day Tzolk’in; 365-day Haab’ (18 × 20 + 5).",
+  "plugin": "plugins/maya.js",
+  "region": "Mesoamerica (historical)",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maya_calendar",
+    "https://en.wikipedia.org/wiki/Mesoamerican_Long_Count_calendar"
+  ]
+}

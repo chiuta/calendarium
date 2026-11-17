@@ -1,0 +1,27 @@
+{
+  "id": "ethiopian",
+  "name": "Ethiopian calendar",
+  "epoch_jd": 1724220.5,
+  "months": [
+    "Meskerem",
+    "Tikimt",
+    "Hidar",
+    "Tahsas",
+    "Tir",
+    "Yekatit",
+    "Megabit",
+    "Miazia",
+    "Genbot",
+    "Sene",
+    "Hamle",
+    "Nehase",
+    "Pagume"
+  ],
+  "leap_rule": "Leap if the year modulo 4 is 3 (Pagume has 6 days).",
+  "plugin": "plugins/ethiopian.js",
+  "region": "Ethiopia, Eritrea",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ethiopian_calendar",
+    "Reingold, E. M. and Dershowitz, N., Calendrical Calculations, 4th ed., Cambridge University Press, 2018"
+  ]
+}
