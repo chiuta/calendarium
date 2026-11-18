@@ -2519,7 +2519,7 @@ html.fff-no-flexgap .fff-share>*+*,html.fff-no-flexgap .fff-share-list>*+*{margi
 <meta name="application-version" content="0.2.0">
 <meta name="last-updated" content="2026-11-17">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-HCzt/jCBXELb/HdvTudfZ0FnTwUYxRlfhJyx03/+A8U=' 'sha256-QrjB1MbPYLmnffTbp57xa6SwKTdVSUGUyaLDtOnyJ+k=' 'sha256-jbKWqIpQp2eTNtovl54tI1IB1HZOZSr5LNlCG4UBmP0=' 'sha256-YO40Pa9U54kBXfBS8s7ySLVhwIuT7JC9cMSApha5DIk=' 'sha256-ZywFsJV2n/14gEElp/T0tFGbI3wSrrN4pBPv5lzt/zg=' 'sha256-+x+NZUutEfdSIDTr7AEFB1+4HA43dQzQunCvQYpNtCY=' 'sha256-Hwirl7AzrujATNnhuvOmsPekx8auFvjeuUUK3+Q2uz0='; style-src 'sha256-ASUL5tty9nVyZUUNlFoyCdIquMVSEhUM7KeZTUTmUsQ=' 'sha256-39ltD54Oaxu1juk0tRXGfj97rdNA7mOWuHKdCyje+b8=' 'sha256-mQhjpY9Qyf1i9ibwNEZIFg33sz8VZlW/dl6ISjW+uJA='; img-src 'self' data:; base-uri 'none'; form-action 'none'; manifest-src 'self'; worker-src 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-HCzt/jCBXELb/HdvTudfZ0FnTwUYxRlfhJyx03/+A8U=' 'sha256-QrjB1MbPYLmnffTbp57xa6SwKTdVSUGUyaLDtOnyJ+k=' 'sha256-jbKWqIpQp2eTNtovl54tI1IB1HZOZSr5LNlCG4UBmP0=' 'sha256-YO40Pa9U54kBXfBS8s7ySLVhwIuT7JC9cMSApha5DIk=' 'sha256-64D+4gFwF/g+UvO6lvER1P4TFPzs34HyKEAvd95LIWQ=' 'sha256-+x+NZUutEfdSIDTr7AEFB1+4HA43dQzQunCvQYpNtCY=' 'sha256-Hwirl7AzrujATNnhuvOmsPekx8auFvjeuUUK3+Q2uz0='; style-src 'sha256-ASUL5tty9nVyZUUNlFoyCdIquMVSEhUM7KeZTUTmUsQ=' 'sha256-39ltD54Oaxu1juk0tRXGfj97rdNA7mOWuHKdCyje+b8=' 'sha256-mQhjpY9Qyf1i9ibwNEZIFg33sz8VZlW/dl6ISjW+uJA='; img-src 'self' data:; base-uri 'none'; form-action 'none'; manifest-src 'self'; worker-src 'self'">
 <title>CALENDARIUM — An atlas and converter of the world&#x27;s calendars, one plugin per calendar</title>
 <meta name="description" content="An atlas and converter of the world&#x27;s calendars, one plugin per calendar">
 <meta name="theme-color" content="#0b1020">
@@ -3629,7 +3629,11 @@ function onFieldsChange(ev) {
   var r = toJDChecked(reg, state.cal, vals);
   if (!r.ok) { setMessage(fmt(cur.L.t(r.why === 'range' ? 'err_range' : 'err_nodate'), calName(state.cal)), true); return; }
   setMessage('', false);
-  state.jd = Math.floor(r.jd + 0.5) - 0.5;
+  var jd = Math.floor(r.jd + 0.5) - 0.5;
+  // «change» vine la ieșirea din câmp, după «input» care a aplicat deja data. Dacă data e aceeași nu se mai re-randează:
+  // altfel butonul din vederea lunară (sau «Copiază») apăsat chiar atunci ar fi înlocuit între mousedown și click, iar apăsarea s-ar pierde.
+  if (ev && ev.type === 'change' && jd === state.jd) return;
+  state.jd = jd;
   saveState();
   renderOutputs();
 }

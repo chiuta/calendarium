@@ -132,7 +132,11 @@ function onFieldsChange(ev) {
   var r = toJDChecked(reg, state.cal, vals);
   if (!r.ok) { setMessage(fmt(cur.L.t(r.why === 'range' ? 'err_range' : 'err_nodate'), calName(state.cal)), true); return; }
   setMessage('', false);
-  state.jd = Math.floor(r.jd + 0.5) - 0.5;
+  var jd = Math.floor(r.jd + 0.5) - 0.5;
+  // «change» vine la ieșirea din câmp, după «input» care a aplicat deja data. Dacă data e aceeași nu se mai re-randează:
+  // altfel butonul din vederea lunară (sau «Copiază») apăsat chiar atunci ar fi înlocuit între mousedown și click, iar apăsarea s-ar pierde.
+  if (ev && ev.type === 'change' && jd === state.jd) return;
+  state.jd = jd;
   saveState();
   renderOutputs();
 }

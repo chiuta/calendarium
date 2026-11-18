@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Non publié]
 
+### Corrigé
+- Vue mensuelle : après la saisie d'une date, le premier clic sur ‹ › (ou sur un bouton « Copier ») était perdu, car la sortie du champ redessinait la page entre l'appui et le relâchement ; la page n'est désormais redessinée que si la date a réellement changé.
+
 ## [0.2.0] - 2026-11-17
 
 ### Ajouté

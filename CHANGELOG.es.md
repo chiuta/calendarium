@@ -6,6 +6,9 @@ Formato: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](ht
 
 ## [Sin publicar]
 
+### Corregido
+- Vista mensual: tras escribir una fecha, la primera pulsación en ‹ › (o en un botón «Copiar») se perdía, porque al salir del campo se redibujaba la página entre la pulsación y la liberación; ahora la página solo se redibuja si la fecha ha cambiado de verdad.
+
 ## [0.2.0] - 2026-11-17
 
 ### Añadido

@@ -6,6 +6,9 @@ Formato: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](ht
 
 ## [Não lançado]
 
+### Corrigido
+- Vista mensal: depois de digitar uma data, o primeiro clique em ‹ › (ou num botão «Copiar») perdia-se, porque a saída do campo redesenhava a página entre o premir e o soltar; agora a página só é redesenhada se a data tiver mesmo mudado.
+
 ## [0.2.0] - 2026-11-17
 
 ### Adicionado

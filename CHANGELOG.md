@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Unreleased]
 
+### Fixed
+- Month view: after typing a date, the first press on ‹ › (or on a «Copy» button) was lost, because leaving the field redrew the page between mouse down and up; the page is now redrawn only when the date really changed.
+
 ## [0.2.0] - 2026-11-17
 
 ### Added

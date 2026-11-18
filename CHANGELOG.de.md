@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Unveröffentlicht]
 
+### Behoben
+- Monatsansicht: Nach dem Eintippen eines Datums ging der erste Klick auf ‹ › (oder auf eine Schaltfläche „Kopieren“) verloren, weil das Verlassen des Feldes die Seite zwischen Drücken und Loslassen neu zeichnete; die Seite wird jetzt nur neu gezeichnet, wenn sich das Datum wirklich geändert hat.
+
 ## [0.2.0] - 2026-11-17
 
 ### Hinzugefügt

@@ -6,6 +6,9 @@ Formato: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](ht
 
 ## [Non rilasciato]
 
+### Corretto
+- Vista mensile: dopo aver digitato una data, la prima pressione su ‹ › (o su un pulsante «Copia») andava persa, perché l'uscita dal campo ridisegnava la pagina tra la pressione e il rilascio; ora la pagina viene ridisegnata solo se la data è davvero cambiata.
+
 ## [0.2.0] - 2026-11-17
 
 ### Aggiunto

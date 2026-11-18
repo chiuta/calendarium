@@ -6,6 +6,9 @@ Formátum: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](
 
 ## [Kiadatlan]
 
+### Javítva
+- Havi nézet: dátum begépelése után a ‹ › (vagy a „Másolás” gomb) első megnyomása elveszett, mert a mező elhagyása a lenyomás és az elengedés között újrarajzolta az oldalt; az oldal mostantól csak akkor rajzolódik újra, ha a dátum valóban megváltozott.
+
 ## [0.2.0] - 2026-11-17
 
 ### Hozzáadva

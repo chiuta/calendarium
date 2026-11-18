@@ -6,6 +6,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Nelansat]
 
+### Corectat
+- Vederea lunară: după tastarea unei date, prima apăsare pe ‹ › (sau pe un buton «Copiază») se pierdea, fiindcă ieșirea din câmp redesena pagina între apăsare și eliberare; pagina se redesenează acum doar dacă data s-a schimbat cu adevărat.
+
 ## [0.2.0] - 2026-11-17
 
 ### Adăugat
