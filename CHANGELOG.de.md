@@ -6,8 +6,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) · [SemVer](htt
 
 ## [Unveröffentlicht]
 
+## [0.2.1] - 2026-11-20
+
 ### Behoben
 - Monatsansicht: Nach dem Eintippen eines Datums ging der erste Klick auf ‹ › (oder auf eine Schaltfläche „Kopieren“) verloren, weil das Verlassen des Feldes die Seite zwischen Drücken und Loslassen neu zeichnete; die Seite wird jetzt nur neu gezeichnet, wenn sich das Datum wirklich geändert hat.
+
+### Geändert
+- fff-kit 1.8.1: Blockiert der Browser den Speicher oder fehlt er (`localStorage`/`sessionStorage` lösen einen Fehler aus oder fehlen), startet die Seite mit einem temporären Arbeitsspeicher, statt anzuhalten; die Daten bleiben nach dem Schließen der Seite nicht erhalten.
+- fff-kit 1.8.1: Die Hilfe, die kleine Bedienelemente auf 44 px vergrößert, misst jetzt auch die Breite des Seitenkörpers und des übergeordneten Elements; eine Schaltflächenreihe kann den Bildschirm also nicht mehr verlassen (die Gruppe bleibt unverändert, wenn die Vergrößerung sie zu breit machen würde).
 
 ## [0.2.0] - 2026-11-17
 

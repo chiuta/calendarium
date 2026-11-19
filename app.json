@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "calendarium",
   "name": "CALENDARIUM — An atlas and converter of the world's calendars, one plugin per calendar",
-  "version": "0.2.0",
-  "updated": "2026-11-17",
+  "version": "0.2.1",
+  "updated": "2026-11-20",
   "description": "An atlas and converter of the world's calendars, one plugin per calendar",
   "egress": [],
   "permissions": [
@@ -15,8 +15,8 @@
   "storageKeys": [
     "calendarium.state"
   ],
-  "sizeBytes": 427922,
-  "sha256": "11671394df622923913735f0b8dd64f7eb3fd6d7179e86dd660d45a0a7ee0166",
+  "sizeBytes": 431787,
+  "sha256": "ccef7a72626da870de992f302d9ad5ac258a0b9249a885e86b874205ce4260c7",
   "csp": {
     "present": true,
     "directives": {
@@ -58,7 +58,7 @@
     ]
   },
   "kit": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "modules": [
       "core",
       "store",

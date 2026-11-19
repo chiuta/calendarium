@@ -1,6 +1,6 @@
 {
   "name": "calendarium",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "description": "Atlas and converter of the world's calendars, one plugin per calendar.",
