@@ -3,7 +3,7 @@
   "slug": "calendarium",
   "name": "CALENDARIUM — An atlas and converter of the world's calendars, one plugin per calendar",
   "version": "0.2.1",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "description": "An atlas and converter of the world's calendars, one plugin per calendar",
   "egress": [],
   "permissions": [
@@ -15,8 +15,8 @@
   "storageKeys": [
     "calendarium.state"
   ],
-  "sizeBytes": 431787,
-  "sha256": "ccef7a72626da870de992f302d9ad5ac258a0b9249a885e86b874205ce4260c7",
+  "sizeBytes": 431847,
+  "sha256": "901fa674143a34cb2fd62ad9c63f723e035debde282550d2e097416fa6302721",
   "csp": {
     "present": true,
     "directives": {
@@ -27,7 +27,8 @@
       "base-uri": "'none'",
       "form-action": "'none'",
       "manifest-src": "'self'",
-      "worker-src": "'self'"
+      "worker-src": "'self'",
+      "upgrade-insecure-requests": "''"
     },
     "scriptInline": "hash",
     "connect": "'none'"
